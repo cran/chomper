@@ -1,7 +1,7 @@
 Package: chomper
 Title: A Comprehensive Hit or Miss Probabilistic Entity Resolution
         Model
-Version: 0.1.3
+Version: 0.1.4
 Authors@R: 
     c(person("Hyungjoon", "Kim", email = "hjkim8987@gmail.com", role = c("aut", "cre")),
       person("Andee", "Kaplan", email = "Andee.Kaplan@colostate.edu", role = c("aut")),
@@ -14,7 +14,7 @@ Description: Provides Bayesian probabilistic methods for record linkage and enti
 License: GPL (>= 3)
 Encoding: UTF-8
 RoxygenNote: 7.3.2
-LinkingTo: Rcpp, RcppArmadillo, RcppThread
+LinkingTo: Rcpp, RcppArmadillo, RcppThread (>= 2.1.7)
 Imports: Rcpp
 Depends: R (>= 3.5)
 LazyData: true
@@ -24,10 +24,10 @@ URL: https://github.com/hjkim8987/chomper
 BugReports: https://github.com/hjkim8987/chomper/issues
 Language: en-US
 NeedsCompilation: yes
-Packaged: 2026-03-10 19:14:49 UTC; hyungjoonkim
+Packaged: 2026-10-15 22:46:04 UTC; hyungjoonkim
 Author: Hyungjoon Kim [aut, cre],
   Andee Kaplan [aut],
   Matthew Koslovsky [aut]
 Maintainer: Hyungjoon Kim <hjkim8987@gmail.com>
 Repository: CRAN
-Date/Publication: 2026-03-16 16:40:26 UTC
+Date/Publication: 2026-10-15 23:20:02 UTC
